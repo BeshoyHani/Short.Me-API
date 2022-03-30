@@ -1,0 +1,29 @@
+{
+  "name": "short.me",
+  "version": "1.0.0",
+  "description": "Web API to shorten URLs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeshoyHani/Short.Me.git"
+  },
+  "author": "Besh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BeshoyHani/Short.Me/issues"
+  },
+  "homepage": "https://github.com/BeshoyHani/Short.Me#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.9",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
