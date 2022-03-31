@@ -1,9 +1,10 @@
 const express = require('express');
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
+var os = require("os");
 
 app.use('/', require('./routers/url.router'));
 
 app.listen(PORT, () => {
-    console.log("besh")
+    console.log("API is runing on port",PORT);
 })

@@ -4,18 +4,19 @@
   "description": "Web API to shorten URLs",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BeshoyHani/Short.Me.git"
+    "url": "git+https://github.com/BeshoyHani/Short.Me-API.git"
   },
-  "author": "Besh",
+  "author": "Beshoy Hani",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/BeshoyHani/Short.Me/issues"
+    "url": "https://github.com/BeshoyHani/Short.Me-API/issues"
   },
-  "homepage": "https://github.com/BeshoyHani/Short.Me#readme",
+  "homepage": "https://github.com/BeshoyHani/Short.Me-API#readme",
   "dependencies": {
     "body-parser": "^1.19.2",
     "dotenv": "^16.0.0",

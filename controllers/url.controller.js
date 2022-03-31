@@ -2,9 +2,9 @@ const URL = require('../models/url.model');
 const validateURL = require('../utils/utils').validateUrl;
 require('dotenv').config({ path: __dirname + '/../config/.env' });
 
-exports.create_short_url = (req, res, next) => {
+exports.create_short_url = (req, res) => {
     let originalURL = req.body.originalURL;
-    let baseAddress = process.env.BASE;
+    let baseAddress = req.headers.host;
     if (validateURL(originalURL)) {
         URL.createShortURL(originalURL, baseAddress)
             .then(newURL => {
